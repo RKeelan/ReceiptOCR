@@ -1,4 +1,5 @@
 import click
+import paddle;
 
 
 @click.command()
@@ -6,3 +7,4 @@ import click
 def cli():
     "Receipt OCR"
     click.echo("Receipt OCR")
+    click.echo(paddle.utils.run_check())

@@ -22,6 +22,14 @@ uv venv && .venv\Scripts\activate.ps1
 Install dependencies (including test):
 ```powershell
 uv pip install -e '.[test]'
+uv pip install --upgrade pip wheel
+uv pip install --upgrade setuptools
+uv pip install paddlepaddle-gpu==3.0.0 -i https://www.paddlepaddle.org.cn/packages/stable/cu126/
+```
+
+Verify paddle installation:
+```
+python -c "import paddle; print(paddle.utils.run_check())"
 ```
 
 Run the tests:
