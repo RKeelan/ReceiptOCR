@@ -1,0 +1,28 @@
+[project]
+name = "receipt-ocr"
+version = "0.1"
+description = "Receipt OCR"
+readme = "README.md"
+authors = [{name = "R. Keelan"}]
+license = "Apache-2.0"
+requires-python = ">=3.10"
+classifiers = []
+dependencies = [
+    "click"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/RKeelan/ReceiptOCR"
+Changelog = "https://github.com/RKeelan/ReceiptOCR/releases"
+Issues = "https://github.com/RKeelan/ReceiptOCR/issues"
+CI = "https://github.com/RKeelan/ReceiptOCR/actions"
+
+[project.scripts]
+ocr = "receipt_ocr.cli:cli"
+
+[project.optional-dependencies]
+test = ["pytest"]
