@@ -1,0 +1,17 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Receipt OCR Project
+
+## Overview
+
+This project is a Python-based OCR (Optical Character Recognition) system specifically designed for processing English-language receipts. It uses PaddleOCR 3.x to extract structured information from receipt images. The system provides a CLI interface for batch processing receipt images from a directory and outputs structured JSON data. It's built with Click for the command-line interface and uses pathlib for robust file handling.
+
+**Current Architecture:**
+- **CLI**: Command-line interface with `run` and `info` commands
+- **OCR Engine**: PaddleOCR 3.x with configurable device support (CPU/GPU)
+- **Receipt Parser**: Custom logic to extract receipt structure from raw OCR text
+- **Output**: Structured JSON with items, totals, and payment information
+
