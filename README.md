@@ -1,6 +1,5 @@
 # ReceiptOCR
 
-[![Changelog](https://img.shields.io/github/v/release/RKeelan/ReceiptOCR?include_prereleases&label=changelog)](https://github.com/RKeelan/ReceiptOCR/releases)
 [![Tests](https://github.com/RKeelan/ReceiptOCR/actions/workflows/test.yml/badge.svg)](https://github.com/RKeelan/ReceiptOCR/actions/workflows/test.yml)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/RKeelan/ReceiptOCR/blob/master/LICENSE)
 
